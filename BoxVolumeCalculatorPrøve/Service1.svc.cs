@@ -29,5 +29,15 @@ namespace BoxVolumeCalculatorPrøve
             }
             return composite;
         }
+
+        public double GetSide(double volume, double side1, double side2)
+        {
+            return volume / (side1 * side2);
+        }
+
+        public double GetVolume(double length, double width, double height)
+        {
+            return length * width * height;
+        }
     }
 }

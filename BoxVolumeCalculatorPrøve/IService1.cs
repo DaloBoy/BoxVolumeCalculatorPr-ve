@@ -20,6 +20,11 @@ namespace BoxVolumeCalculatorPrøve
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
         // TODO: Add your service operations here
+        [OperationContract]
+        double GetVolume(double length, double width, double height);
+
+        [OperationContract]
+        double GetSide(double volume, double side1, double side2);
     }
 
 
