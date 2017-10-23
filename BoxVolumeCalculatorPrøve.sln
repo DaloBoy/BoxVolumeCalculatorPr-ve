@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxVolumeCalculatorPrøve",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxVolumeCalculatorPrøveTests", "BoxVolumeCalculatorPrøveTests\BoxVolumeCalculatorPrøveTests.csproj", "{BC815093-B89B-41AD-AE67-CDC82892A8F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationBoxCalculator", "ConsoleApplicationBoxCalculator\ConsoleApplicationBoxCalculator.csproj", "{A4BD7176-0D95-4BDF-8D26-67BF1310CE96}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BC815093-B89B-41AD-AE67-CDC82892A8F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC815093-B89B-41AD-AE67-CDC82892A8F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC815093-B89B-41AD-AE67-CDC82892A8F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4BD7176-0D95-4BDF-8D26-67BF1310CE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4BD7176-0D95-4BDF-8D26-67BF1310CE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4BD7176-0D95-4BDF-8D26-67BF1310CE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4BD7176-0D95-4BDF-8D26-67BF1310CE96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
